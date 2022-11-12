@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js"></script>
+
+
+<!--adding google font-->>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+<style>
+h1#title{font-family: "Sofia", sans-serif;}
+</style>
+
+</head>
+<body>
+
+<!--adding audion files-->
+  <audio src="./sounds/crash.mp3" id="myAudio1"></audio>
+  <audio src="./sounds/kick-bass.mp3" id="myAudio2"></audio>
+  <audio src="./sounds/snare.mp3" id="myAudio3"></audio>
+  <audio src="./sounds/tom-1.mp3" id="myAudio4"></audio>
+  <audio src="./sounds/tom-2.mp3" id="myAudio5"></audio>
+  <audio src="./sounds/tom-3.mp3" id="myAudio6"></audio>
+  <audio src="./sounds/tom-4.mp3" id="myAudio7"></audio>
+   
+  <h1 id="title">Drum 🥁 Kit</h1>
+
+
+  <!--add onClinck eventlistener in the buttons-->
+  <div class="set">
+    <button onClick="playMyAudio1()" class="w drum">w</button>
+    <button onClick="playMyAudio2()" class="a drum">a</button>
+    <button onClick="playMyAudio3()" class="s drum">s</button>
+    <button onClick="playMyAudio4()" class="d drum">d</button>
+    <button onClick="playMyAudio5()" class="j drum">j</button>
+    <button onClick="playMyAudio6()" class="k drum">k</button>
+    <button onClick="playMyAudio7()" class="l drum">l</button>
+  </div>
+</body>
+
+</html>
