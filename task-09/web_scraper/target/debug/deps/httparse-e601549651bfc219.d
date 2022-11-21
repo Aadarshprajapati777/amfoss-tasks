@@ -1,0 +1,12 @@
+/home/adarsh/amfoss_backup/amfoss-tasks/task-09/web_scraper/target/debug/deps/httparse-e601549651bfc219.rmeta: /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/lib.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/iter.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/macros.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/mod.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/sse42.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/avx2.rs
+
+/home/adarsh/amfoss_backup/amfoss-tasks/task-09/web_scraper/target/debug/deps/libhttparse-e601549651bfc219.rlib: /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/lib.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/iter.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/macros.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/mod.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/sse42.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/avx2.rs
+
+/home/adarsh/amfoss_backup/amfoss-tasks/task-09/web_scraper/target/debug/deps/httparse-e601549651bfc219.d: /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/lib.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/iter.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/macros.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/mod.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/sse42.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/avx2.rs
+
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/lib.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/iter.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/macros.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/mod.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/sse42.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/httparse-1.8.0/src/simd/avx2.rs:

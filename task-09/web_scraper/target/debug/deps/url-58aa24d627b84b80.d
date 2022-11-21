@@ -1,0 +1,13 @@
+/home/adarsh/amfoss_backup/amfoss-tasks/task-09/web_scraper/target/debug/deps/url-58aa24d627b84b80.rmeta: /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/lib.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/host.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/origin.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/parser.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/path_segments.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/slicing.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/quirks.rs
+
+/home/adarsh/amfoss_backup/amfoss-tasks/task-09/web_scraper/target/debug/deps/liburl-58aa24d627b84b80.rlib: /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/lib.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/host.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/origin.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/parser.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/path_segments.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/slicing.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/quirks.rs
+
+/home/adarsh/amfoss_backup/amfoss-tasks/task-09/web_scraper/target/debug/deps/url-58aa24d627b84b80.d: /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/lib.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/host.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/origin.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/parser.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/path_segments.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/slicing.rs /home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/quirks.rs
+
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/lib.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/host.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/origin.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/parser.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/path_segments.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/slicing.rs:
+/home/adarsh/.cargo/registry/src/github.com-1ecc6299db9ec823/url-2.3.1/src/quirks.rs:
