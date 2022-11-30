@@ -1,5 +1,14 @@
 package main
 
+import (
+	"net/http"
+)
+
+func incrementfunc() {
+	fmt.println("increment is clicked")
+}
+
 func main() {
-	println("hello world")
+	http.ListenAndServe(":8080", http.FileServer(http.Dir(".")))
+	incrementfunc()
 }
