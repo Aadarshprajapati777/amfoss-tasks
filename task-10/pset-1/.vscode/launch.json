@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch cash",
+            "request": "launch",
+            "mainClass": "cash",
+            "projectName": "pset-1_d643ca6f"
+        },
+        {
+            "type": "java",
             "name": "Launch mario",
             "request": "launch",
             "mainClass": "mario",
