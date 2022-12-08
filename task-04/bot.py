@@ -4,6 +4,7 @@ import requests
 import json
 import csv
 
+
 # TODO: 1.1 Get your environment variables 
 yourkey = os.getenv("5414330626:AAEa_jHaAA3X2GX-YJUbDflij7258MDqtsQ")
 bot_id = os.getenv("5414330626:AAEa_jHaAA3X2GX-YJUbDflij7258MDqtsQ")
@@ -23,36 +24,46 @@ def goodbye(message):
     global botRunning
     botRunning = False
     bot.reply_to(message, 'Bye!\nHave a good time')
-    
-
 
 @bot.message_handler(func=lambda message: botRunning, commands=['help'])
 def helpProvider(message):
     bot.reply_to(message, '1.0 You can use \"/movie MOVIE_NAME\" command to get the details of a particular movie. For eg: \"/movie The Shawshank Redemption\"\n\n2.0. You can use \"/export\" command to export all the movie data in CSV format.\n\n3.0. You can use \"/stop\" or the command \"/bye\" to stop the bot.')
 
 
+
 @bot.message_handler(func=lambda message: botRunning, commands=['movie'])
 def getMovie(message):
-    bot.reply_to(message, 'Getting movie info...')
+ bot.reply_to(message , 'Getting movie info...')
     # TODO: 1.2 Get movie information from the API
-    # TODO: 1.3 Show the movie information in the chat window
+    
+ movie_name = (message.text.split(' ', 1)[1])
+ response = requests.get("http://www.omdbapi.com/?i=tt3896198&apikey=1856286e&t="+movie_name)
+ data = response.json()
+ title = data["Title"]
+ year = data["Year"]
+ rating = data["imdbRating"]
+ poster= data["Poster"]
+ bot.reply_to(message, f"Poster: {poster}\nTitle: {title}\nYear: {year}\nRating: {rating}")
+
+
     # TODO: 2.1 Create a CSV file and dump the movie information in it
- 
+
+ with open('movie.csv', 'w') as csvfile:
+    fieldnames = ['Title', 'Year', 'imdbRating']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerow({'Title': title, 'Year': year, 'imdbRating': rating})
 
 
 
-
-response = requests.get("http://www.omdbapi.com/?i=tt3896198&apikey=1856286e")
-image=response.content
-
-print(image)
-
-
-  
 @bot.message_handler(func=lambda message: botRunning, commands=['export'])
 def getList(message):
     bot.reply_to(message, 'Generating file...')
     #TODO: 2.2 Send downlodable CSV file to telegram chat
+
+    with open('movie.csv', 'rb') as csvfile:
+        bot.send_document(message, csvfile)
+        bot.reply_to(message, 'CSV file generated!You can download it now.')
 
 @bot.message_handler(func=lambda message: botRunning)
 def default(message):
@@ -60,4 +71,5 @@ def default(message):
     
 bot.infinity_polling()
 
-Av
+
+
