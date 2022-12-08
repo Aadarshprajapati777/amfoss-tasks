@@ -43,7 +43,8 @@ def getMovie(message):
  year = data["Year"]
  rating = data["imdbRating"]
  poster= data["Poster"]
- bot.reply_to(message, f"Poster: {poster}\nTitle: {title}\nYear: {year}\nRating: {rating}")
+ bot.send_photo(message.chat.id, poster)
+ bot.reply_to(message, f"Title: {title}\nYear: {year}\nRating: {rating}")
 
 
     # TODO: 2.1 Create a CSV file and dump the movie information in it
@@ -60,14 +61,13 @@ def getMovie(message):
 def getList(message):
     bot.reply_to(message, 'Generating file...')
     #TODO: 2.2 Send downlodable CSV file to telegram chat
-
     with open('movie.csv', 'rb') as csvfile:
-        bot.send_document(message, csvfile)
+        bot.send_document(chat_id=message.chat.id,document=open(r'movie.csv', 'rb'))
         bot.reply_to(message, 'CSV file generated!You can download it now.')
 
 @bot.message_handler(func=lambda message: botRunning)
 def default(message):
-    bot.reply_to(message, 'I did not understand '+'\N{confused face}')
+    bot.reply_to(bot, 'I did not understand '+'\N{confused face}')
     
 bot.infinity_polling()
 
