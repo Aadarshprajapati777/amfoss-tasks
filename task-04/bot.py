@@ -17,7 +17,7 @@ def greet(message):
     global botRunning
     botRunning = True
     bot.reply_to(
-        message, 'Hello Ak\n\n')
+        message, 'Hello there! I am a bot that will show movie information for you and export it in a CSV file.\n\n')
     
 @bot.message_handler(commands=['stop', 'bye'])
 def goodbye(message):
@@ -70,6 +70,3 @@ def default(message):
     bot.reply_to(bot, 'I did not understand '+'\N{confused face}')
     
 bot.infinity_polling()
-
-
-
