@@ -1,8 +1,4 @@
-package main
-
-import (
-	"syscall/js"
-)
+import "syscall/js"
 
 func add(this js.Value, args []js.Value) interface{} {
 	println("add called")
@@ -15,4 +11,6 @@ func main() {
 	c := make(chan struct{}, 0)
 	registerCallbacks()
 	<-c
+
 }
+
