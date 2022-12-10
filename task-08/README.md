@@ -1,9 +1,2 @@
-# Getting started:
+I enjoyed this task a lot, I added sound in the drums and attractive google fonts and also added few css style to make the site attractive. The <a href="https://github.com/amfoss/tasks/tree/main/task-08" target="_blank">resources</a> provided were very usefull.
 
-<ol>
-  <li>Clone this repository into your local machine</li>
-  <li>Open the folder in an editor of your choice (Recommended - VS Code)</li>
-  <li>Download the Live Server extension in VS Code to instantly see your changes made to the website without refreshing the tab</li>
-</ol>
-
-<p>You can begin this task by referring to the READMEs given in the folders named Part-1,2,3,4</p>
