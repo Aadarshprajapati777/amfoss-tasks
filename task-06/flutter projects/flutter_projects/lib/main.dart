@@ -15,7 +15,7 @@ void main() {
               game: game,
             ),
             Align(
-              alignment: Alignment.bottomRight,
+              alignment: Alignment.bottomLeft,
               child: NavigationKeys(
                 onDirectionChanged: game.onArrowKeyChanged,
               ),
