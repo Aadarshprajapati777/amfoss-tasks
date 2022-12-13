@@ -1,43 +1,37 @@
-Terminal and Git commmands that I used to complete this task are:
+# TERMINAL HUNT
 
-to create a folder named task_02
-1. cd task_02
+I enjoyed doing this task,After each step there was new surprise,I followed the instructions provided in the task and in the last I found the key to open the pdf.
 
+# Linux and Git commands used:
 
-to clone the repository
-2. git clone https://github.com/gauthamk02/TerminalHunt.git
+git clone: to clone the repo given in the task sheet
 
+mkdir: to make a directory inside task-02 folder named as solution
 
+cat: to create the first folder
 
-to create  a new directory in the same repository named solution
-3. mkdir solution
+cp: copy the file from the cloned repo to solution directory
 
-to add all the work to the staging area
-4. git add .
+mv: to rename the file
 
-to commit the changes
-5. git commit -m "Solution"
+cat: to concantenate the files into one
 
-to push the changes to the remote repository
-6. git push origin main
+git log: to view the commit
 
-to see all the local and remote branches of the repository
-7. git branch -a
+git branch: to view the branches
 
-to switch to the new branch asia
-8. git checkout asia
+git checkout : to create a new branch
 
-to find the file athens.txt
-9. find . -name athens.txt
+git merge: to merge the branch
 
-to switch to the main branch
-10. git checkout main
+# Git commands that I use to push all my works into amfoss-tasks repository:
 
-to merge the asia branch to the main branch
-11. git merge asia
-
-
-to push all my work in the remote repository
 git add .
-git commit -m "pushing all my work"
-git push origin main
+
+git commit -m"\<commit\_message\>"
+
+git push
+
+# screenshot of the pdf
+
+![](https://github.com/Aadarshprajapati777/amfoss-tasks/blob/main/task-02/solution/Screenshot.png)
